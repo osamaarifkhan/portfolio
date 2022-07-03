@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta id="app-description" name="description" content="Hey , I am Osama Arif Khan a web developer and programmer who loves to read between the code lines">
+        <meta author="Osama Arif Khan"/>
+        <link rel="icon" type="image/jpg" href="assets/favicon.ico" alt="logo">
+        <!-- <link rel="stylesheet" href="index.css" /> -->
+        <title>Osama Arif | Web developer</title>
+    </head>
+    <body>
+        <header class="header">
+            <nav>
+                <a><h1 class="span" href="#home">OSAMA ARIF KHAN</h1></a>
+                <a href="#home">HOME</a>
+                <a href="#techStack">TECH STACK</a>
+                <a href="#project">PROJECTS</a>
+                <a href="#contact">CONTACT ME</a>
+            </nav>
+        </header>
+
+        <main>
+            <section id="home" class="hero">
+                <div class="intro">
+                    <p>
+                        WEB DEVELOPER LOOKING TO DEEP DIVE INTO W3 TECHNOLOGIES
+                    </p>
+                </div>
+            </section>
+
+            <h2  id="tech-Stack" class="about-me span">
+                TECH STACK
+            </h2>
+            <section class="about-container">
+                <div class="about">
+                    <img src="assets/html.png" alt="htmlo" />
+                </div>
+                <div class="about">
+                    <img src="assets/css.png" alt="css" />
+                </div>
+                <div class="about">
+                    <img src="assets/jss.png" alt="js" />
+                </div>
+                <div class="about">
+                    <img src="assets/react.jpg" alt="react" />
+                </div>
+            </section>
+            <h2  id="project" class="about-me span">
+                PROJECTS
+            </h2>
+            <section class="project-container">
+                <div class="project">
+                    <h3 class="legend centre">To-Do List</h3>
+                    <img src="assets/todo.png" alt="todo" class="photo">
+                    <p class="details">The "To Do List" report displays the list of tasks with start and finish dates for a specified resource using Html, Css and Js
+                        used various Js concepts like DOM, classes, event etc.<p>
+                   
+                    
+                </div>
+                <div class="project" >
+                    <h3 class="legend centre"> Weather App</h3>
+                    <img src="assets/rain.jpg" alt="weather" class="photo">
+                    <p class="details">Created a live weather app of cities around the world using Web Apis using react got familiar with concepts such as import exports,
+                        componets and all the libraraies of react.
+                    </p>
+                    
+                </div>
+                <div class="project">
+                    <h3 class="legend centre">Simon-Game</h3>
+                    <img src="assets/game.jpg" alt="game" class="photo">
+                    <p class="details">Simon-Game is wide spread toy which is closely related to a memory game. Used a fair amount of Css to the layout also i the backend 
+                        fixed all the bugs and made the game as close to the real one as possible.  
+                    </p>
+                </div>
+            </section>
+            <h2 id="contact" class="about-me span"> CONTACT ME </h2>
+            <br />
+            <form class="form">
+                <fieldset class="personal-container">
+                    <legend class="legend">PERSONAL INFORMATION</legend>
+                    <div>
+                        <label for="name"> Name:</label>
+                        <input
+                            type="text"
+                            id="name"
+                            placeholder="Enter Your Name..."
+                            required
+                        />
+                    </div>
+                    <div>
+                        <label for="email"> Email:</label>
+                        <input
+                            type="email"
+                            id="email"
+                            placeholder="Enter Your Email Id..."
+                            required
+                        />
+                    </div>
+                    <div>
+                        <label for="dob"> Date of Birth:</label>
+                        <input type="date" id="dob" placeholder="mm/dd/yy" />
+                    </div>
+                </fieldset>
+                <fieldset class="feeback-container">
+                    <legend class="legend">FEEDBACK</legend>
+                    <ul>
+                        <li class="align">
+                            <label for="hire"
+                                >What should I focus more as a developer:</label
+                            >
+                            <input type="checkbox" id="hire1" name="html" /><label for="hire1">html</label>
+                            <input type="checkbox" id="hire2" name="css"/><label for="hire1">css</label>
+                            <input type="checkbox" id="hire3" name="js"/><label for="hire1">js</label>
+                            <input type="checkbox" id="hire4" name="react" /><label for="hire1">react</label>
+                        </li>
+                        <li class="align">
+                            <label for="response">Rate my site:</label>
+                            <select id="response">
+                                <option value="1" name="1">1</option>
+                                <option value="2" name="2">2</option>
+                                <option value="3" name="3">3</option>
+                                <option value="4" name="4">4</option>
+                                <option value="5" name="5">5</option>
+                            </select>
+                        </li>
+                        <li class="align">
+                            <label for="review"
+                                >Please leave a short review:</label
+                            ><br />
+                            <textarea
+                                id="review"
+                                rows="4"
+                                cols="50"
+                                placeholder="Your review will help me a lot :)...."
+                                name="review"
+                            >
+                            </textarea>
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset>
+                    <legend class="legend align">HIRE ME?</legend>
+
+                    <input
+                        type="radio"
+                        value="yes"
+                        id="hireY"
+                        name="hire"
+                        checked
+                    /><label id="hireY" name="hire">Yes</label>
+
+                    <input
+                        type="radio"
+                        value="no"
+                        id="hireN"
+                        name="hire"
+                    /><label id="hireN" name="hire">No</label>
+                </fieldset>
+                <input
+                    class="align btn"
+                    type="submit"
+                    value="Submit"
+                    placeholder="Submit"
+                    name="submit"
+                />
+            </form>
+        </main>
+
+        <footer class="footer">
+            <p>Copyright &#169 OsamaArif</p>
+        </footer>
+    </body>
+</html>
